@@ -1,0 +1,37 @@
+# ===== Compilación =====
+*.o
+*.exe
+*.out
+*.a
+*.lib
+
+# Binarios del proyecto
+server_app
+server_app.exe
+myserver
+myserver.exe
+
+# ===== Debug / temporales =====
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ===== VS / VSCode =====
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+
+# ===== MSYS2 / MinGW =====
+*.dll
+*.stackdump
+
+# ===== Sistema =====
+Thumbs.db
+.DS_Store
+
+# ===== CMake / otros (por si acaso) =====
+build/
+cmake-build-*/
+
