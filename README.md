@@ -20,19 +20,17 @@ This is a minimalist HTTP server written in C, compatible with both **Windows** 
 
 ### 🛠 Build Instructions
 
-#### Linux
+#### Linux or Windows
 
+To build, clean and run use the make commands
 ```bash
-gcc main.c server.c -o myServer
-./myServer
+make 
+
+make clean
+
+make run
 ```
 
-#### Windows
-
-```bash
-gcc main.c server.c -o myServer.exe -lws2_32
-./myServer.exe
-```
 
 > ⚠️ Make sure to **run the executable from PowerShell or CMD**, and use a **non-privileged port (e.g. 8080)** unless running as administrator.
 
